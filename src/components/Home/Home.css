@@ -1,0 +1,88 @@
+#home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  /* margin-top: 8rem; */
+}
+
+.lefthome{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  /* border: 2px solid red; */
+}
+
+.righthome{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid blue; */
+}
+
+.righthome img{
+  width: 60%;
+  /* height: 100%; */
+  filter: drop-shadow(2px 2px 20px rgb(116, 201, 225));
+}
+
+.lefthome{
+  font-size:2vmax;
+}
+
+.line1{
+  font-size: .8em;
+}
+
+.line2{
+  font-size: 2em;
+  background: linear-gradient(to right, rgb(66, 180,205), #fff);
+  background-clip: text;
+  color: transparent;
+}
+
+.line3{
+  font-size: 1em;
+}
+
+.homedetails button{
+  padding: 5px 20px;
+  background-color: rgb(66, 180, 205);
+  color: #000;
+  border: 2px solid rgb(66, 180, 205);
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.homedetails button:hover{
+  background-color: transparent;
+  color: rgb(66, 180, 205);
+}
+
+
+@media (max-width: 750px){
+  #home{
+    flex-direction: column-reverse;
+     /* margin-top: 16rem; */
+  }
+  .lefthome{
+    width: 100%;
+    height: 50vh;
+  }
+
+
+  .righthome{
+    width: 100%;
+    height: 50vh;
+    align-items: end;
+  }
+}
