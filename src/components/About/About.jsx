@@ -2,6 +2,8 @@
 import './About.css'
 import Card from '../Card/Card'
 import mern from '../../assets/mern.png'
+import dsa from '../../assets/dsa.png'
+import fr from '../../assets/freelancing.jpg'
 
 
 const About = () => {
@@ -67,11 +69,11 @@ const About = () => {
       </div>
       <div className='rightabout'>
         <Card title={"MERN FULL STACK DEVELOPER"} image={mern}/>
-        <Card title={"FREELANCER"} image={mern}/>
-        <Card title={"DSA"} image={mern}/>
+        <Card title={"FREELANCER"} image={fr}/>
+        <Card title={"DSA"} image={dsa}/>
       </div>
     </div>
   )
 }
 
-export default About
+export default About 
