@@ -68,9 +68,16 @@ const About = () => {
         </div>
       </div>
       <div className='rightabout'>
-        <Card title={"MERN FULL STACK DEVELOPER"} image={mern}/>
-        <Card title={"FREELANCER"} image={fr}/>
-        <Card title={"DSA"} image={dsa}/>
+        <a className='card-link'>
+          <Card title={"MERN FULL STACK DEVELOPER"} image={mern}/>
+        </a>
+        <a className='card-link'>
+          <Card title={"FREELANCER"} image={fr}/>
+        </a>
+        <a className='card-link'>
+          <Card title={"DSA"} image={dsa}/>
+        </a>
+        
       </div>
     </div>
   )

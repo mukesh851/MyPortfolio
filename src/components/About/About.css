@@ -74,19 +74,21 @@
 @media (max-width:750px){
   #about{
     flex-direction: column;
+    gap: 5rem;
    
   }
 
   .leftabout{
     width: 100%;
     height: 60vh;
-    padding-left: 10%;
+    padding-left: 6%;
   }
 
   .rightabout{
     width: 100%;
-    height: 70vh;
-  }
+    /* height: 50vh; */
+    gap: 27px;
+    }
 }
 
 

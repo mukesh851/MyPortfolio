@@ -14,11 +14,21 @@ const Projects = () => {
       <div className='slider'>
         
         {/* <Card title="VIRTUAL ASSISTANT" image={Va}/> */}
-        <Card title="SNAKE GAME" image={snake}/>
-        <Card title="E-COMMERCE WEBSITE" image={ec}/>
 
-        <Card title="FREELANCING PROJECT" image={fr1}/> 
-        <Card title="CODE REVIEW" image={cdr}/>
+        <a className='card-link' href='https://snake-game-kohl-eight-15.vercel.app/   '>
+          <Card title="SNAKE GAME" image={snake}/>
+        </a>
+        <a className='card-link' href='https://e-commerce-phi-beryl-88.vercel.app/  '>
+          <Card title="E-COMMERCE WEBSITE" image={ec}/>
+        </a>
+        
+        <a className='card-link' href='https://grand-sameer-project-e4z5.vercel.app/'>
+          <Card title="FREELANCING PROJECT" image={fr1}/> 
+        </a>
+        <a className='card-link'>
+          <Card title="CODE REVIEW" image={cdr}/>
+        </a>
+        
         {/* <Card title="VIRTUAL ASSISTANT" image={Va}/> */}
       </div>
     </div>
